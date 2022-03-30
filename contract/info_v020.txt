@@ -1,0 +1,17 @@
+(remix info)
+
+COMPILER
+  0.8.7+commit.e28d00a7
+
+CONTRACT
+  _NAME: How To V0.2.0
+  _SYMBOL: HOWTOV020
+  _INITBASEURI: https://storage.googleapis.com/how-to-nfts-metadata/
+
+Enable optimization: 200
+
+Bytecode in "bytecode_v20.txt"
+
+Contract address: 0xb552E0dDd94EA72DBc089619115c81529cd8CA70
+
+ABI from compile page:

@@ -1,0 +1,20 @@
+For Heroku, note I'm using Python 3.9.1
+=======
+Note, we're currently Infura API limited (1e5 calls free per day).
+Given that backend.py in the while true does 3*maxSupply calls,
+I should sleep about a minute to barely not exceed the API limit.
+
+But since I'll want to use the INFURA API for other projects,
+maybe more like 5 minutes.
+
+Also since I didn't catch this, for today I'll have to degrade
+to once per 10 minutes (already at 75% used).
+===
+Other limitations:
+
+Heroku, only free ~20 days per month (31/31 if credit card added,
+think only for one app tho).
+
+Google Cloud: free for another 50ish days (today is 2022-03-27).
+Then I think it's like $1 per month or something pretty cheap given
+our present utilization.
